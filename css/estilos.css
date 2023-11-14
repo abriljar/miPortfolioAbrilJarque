@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:wght@400..900&display=swap");
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.btn-primary-custom {
+  background-color: #F5C5B4;
+  color: #4F6029;
+  border: 2px solid #F5C5B4;
+  transition: all 0.3s;
+}
+.btn-primary-custom:hover {
+  background-color: #FFDAB9;
+  color: black;
+  border: 2px solid #FFDAB9;
+}
+
+header {
+  margin-top: 80px; /* Agrega un margen superior para separar del navbar */
+}
+
+:root {
+  --bs-body-bg: #FCF5EB;
+  --bs-primary-bg-subtle:transparent;
+}
+
+.btn-outline-success {
+  --bs-btn-hover-bg: #D4DF9A;
+}
+
+h4, h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body .imagen-principal {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon-wink {
+  color: red;
+  font-size: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.img-thumbnail {
+  width: 500px; /* Puedes ajustar el valor según tus necesidades */
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+}
+
+.carousel-caption {
+  color: black;
+  background-color: white;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../imagenes/next.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../imagenes/prev.png);
+}
+
+footer {
+  background-color: #D4DF9A;
+  padding: 2rem;
+  text-align: center;
+  margin: 0;
+  height: 10vh;
+}
+
+footer p {
+  margin: 0;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}/*# sourceMappingURL=estilos.css.map */
